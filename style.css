@@ -69,6 +69,12 @@ p {
 
 }
 
+@media (max-width:600px) {
+    .navbar{
+        padding: 3% 2%;
+    }
+}
+
 .navbar p {
     color: rgb(21, 3, 3);
 }
@@ -95,11 +101,16 @@ p {
 
 .logo p {
     font-size: 23px;
-    font-weight: bold;
+    font-weight: 500;
 
     @media (max-width:700px) {
-        font-size: 18px;
+        font-size: 14px;
     }
+}
+
+.logo span{
+    color: orange;
+    font-weight: 700;
 }
 
 .options {
@@ -854,6 +865,7 @@ p {
     background-color:#2b0736;
     padding-top: 30px;
     margin-bottom: 0px;
+    padding-top: 70px;
 
 
 }
@@ -872,7 +884,7 @@ p {
 }
 
 .footer div P {
-    color:rgb(173 0 0 / 83%);
+    color:rgba(255, 255, 255, 0.83);
     font-size: 13px;
 }
 
@@ -920,6 +932,120 @@ p {
 }
 
 
+
+.logodiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: space-around;
+    padding-top: 0px;
+}
+.logodiv p {
+    color: #1b3557 !important;
+   
+}
+.logodiv img {
+    width: 158px;
+    height: 90px;
+    object-fit: contain;
+}
+@media (max-width: 700px) {
+    .logodiv img {
+        width: 105px;
+        margin-bottom: -16px;
+   }
+}
+@media (max-width: 700px) {
+    .logodiv {
+        row-gap: 10px;
+   }
+}
+.logodiv p {
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    color: white !important;
+}
+@media (max-width: 700px) {
+    .logodiv p {
+        font-size: 17px;
+   }
+}
+.logodiv p span {
+    color: red;
+}
+.logodiv P:nth-child(2) {
+    font-weight: 500;
+    color: gray;
+    font-size: 16px;
+}
+@media (max-width: 700px) {
+    .logodiv P:nth-child(2) {
+        font-size: 12px;
+   }
+}
+
+
+
+.love {
+    width: 100%;
+    background-color:#2b0736;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid rgba(227, 220, 220, 0.427);
+    padding-top: 20px;
+}
+@media (max-width: 884px) {
+    .love {
+        flex-direction: column;
+        row-gap: 20px;
+   }
+}
+.love .logodiv p {
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.love a {
+    color: red;
+    text-decoration: none;
+}
+.love p {
+    text-align: center;
+    padding: 0px 12px;
+    color: white;
+
+}
+@media (max-width: 600px) {
+    .love p {
+        font-size: 13px !important;
+   }
+}
+.love .socialicons {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 10px;
+}
+.love .socialicons img {
+    width: 20px;
+    height: 20px;
+}
+@media (max-width: 600px) {
+    .love .socialicons img {
+        width: 17px;
+        height: 17px;
+   }
+}
+.love .socialicons a {
+    margin-top: 10px;
+}
 
 
 
